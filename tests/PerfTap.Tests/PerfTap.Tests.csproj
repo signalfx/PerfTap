@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NanoTube">
-      <HintPath>..\..\src\packages\NanoTube.0.1.0.0\lib\net40-Client\NanoTube.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -64,9 +61,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\PerfTap\PerfTap.csproj">
-      <Project>{D1FF64F1-E30B-452E-830C-44720697BAC1}</Project>
-      <Name>PerfTap</Name>
+    <ProjectReference Include="..\..\..\NanoTube\src\NanoTube\NanoTube.csproj">
+      <Project>{f02996af-ea6d-4c8a-b8d6-29e99a4a0fa2}</Project>
+      <Name>NanoTube</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\src\PerfTap.Core\PerfTap.Core.csproj">
+      <Project>{d1ff64f1-e30b-452e-830c-44720697bac1}</Project>
+      <Name>PerfTap.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

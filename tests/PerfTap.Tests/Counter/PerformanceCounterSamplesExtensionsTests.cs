@@ -12,9 +12,10 @@ namespace PerfTap.Counter.Tests
 	using System.Linq;
 	using System.Text;
 	using NanoTube.Support;
-	using PerfTap;
+	using PerfTap.Core;
 	using Xunit;
 	using Xunit.Extensions;
+	using PerfTap.Core.Counter;
 
 	/// <summary>
 	/// TODO: Update summary.

@@ -11,6 +11,7 @@ namespace PerfTap.Interop.Tests
 	using System.Linq;
 	using Xunit;
 	using PerfTap.Counter;
+	using PerfTap.Core.Counter;
 
 	/// <summary>
 	/// TODO: Update summary.

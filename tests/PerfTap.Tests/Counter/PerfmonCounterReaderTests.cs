@@ -6,6 +6,7 @@
 
 namespace PerfTap.Counter.Tests
 {
+	using PerfTap.Core.Counter;
 	using System;
 	using System.Collections.Generic;
 	using System.Diagnostics;

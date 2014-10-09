@@ -6,11 +6,11 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PerfTap.WindowsServiceHost")]
-[assembly: AssemblyDescription("The Window service host for PerfTap")]
+[assembly: AssemblyTitle("PerfTap.Core")]
+[assembly: AssemblyDescription("PerfTap core PerfMon counter reading, parsing and sending")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("East Point Systems, Inc. http://www.eastpointsystems.com/")]
-[assembly: AssemblyProduct("PerfTap.WindowsServiceHost")]
+[assembly: AssemblyProduct("PerfTap")]
 [assembly: AssemblyCopyright("Copyright © 2012 East Point Systems, Inc.")]
 [assembly: AssemblyTrademark("")]
 [assembly: NeutralResourcesLanguage("en")]
@@ -21,7 +21,7 @@ using System.Resources;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("3db98e11-5e61-4ed3-8e6f-5d819e232608")]
+[assembly: Guid("4e173695-dd85-423a-abf5-add64f504948")]
 
 // Version information for an assembly consists of the following four values:
 //

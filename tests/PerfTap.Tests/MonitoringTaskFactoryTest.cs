@@ -14,7 +14,7 @@ namespace PerfTap.Tests
 	using System.Threading;
 	using System.Threading.Tasks;
 	using NanoTube.Configuration;
-	using PerfTap.Configuration;
+	using PerfTap.Core.Configuration;
 	using Xunit;
 
 	/// <summary>
@@ -23,7 +23,7 @@ namespace PerfTap.Tests
 	public class MonitoringTaskFactoryTest
 	{
 		private int port;
-		ICounterSamplingConfiguration counterConfig = new Configuration.CounterSamplingConfiguration()
+		ICounterSamplingConfiguration counterConfig = new CounterSamplingConfiguration()
 		{
 			CounterDefinitions = new CounterNameConfigurationCollection(new [] {@"\network interface(*)\bytes total/sec", 
 				@"\processor(_total)\% processor time", 
