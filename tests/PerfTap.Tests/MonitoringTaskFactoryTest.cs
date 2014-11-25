@@ -37,7 +37,7 @@ namespace PerfTap.Tests
 		IMetricPublishingConfiguration reportingConfig = new MetricPublishingConfiguration()
 		{
 			PrefixKey = "test",
-			HostName = "localhost"
+			HostNameOrAddress = "localhost"
 		};
 
 		public MonitoringTaskFactoryTest()
